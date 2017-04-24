@@ -1,0 +1,51 @@
+<android.support.v7.widget.Toolbar android:id="@+id/toolbar_main_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:background="?colorPrimary"
+    app:contentInsetLeft="0dp"
+    app:contentInsetStart="0dp"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        >
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:id="@+id/change_lang"
+                android:background="@android:color/transparent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_compare_arrows_black_24dp"/>
+        <TextView
+            android:id="@+id/lang_from"
+            style="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackground"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:textColor="@android:color/white"
+            android:paddingRight="16dp"
+            android:layout_toStartOf="@id/change_lang"
+            android:text="Test1"
+            android:textAllCaps="true" />
+        <TextView
+            android:id="@+id/lang_to"
+            style="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackground"
+            android:gravity="center_vertical"
+            android:layout_toEndOf="@id/change_lang"
+            android:text="test2"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textAllCaps="true" />
+    </RelativeLayout>
+</android.support.v7.widget.Toolbar>

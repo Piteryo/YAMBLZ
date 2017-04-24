@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <include layout="@layout/toolbar_main"
+        />
+
+    <EditText
+        android:layout_height="160dip"
+        android:id="@+id/editText"
+        android:background="@drawable/frame"
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:imeOptions="actionDone"
+        android:ems="10"
+        android:layout_margin="8dp"
+        />
+
+    <TextView
+        android:freezesText="true"
+        android:layout_margin="8dp"
+        android:gravity="left"
+        android:maxLines = "100"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:scrollbars = "vertical"
+        android:id="@+id/translateView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         />
+
+    <TextView
+        android:freezesText="true"
+        android:layout_margin="8dp"
+        android:gravity="left"
+        android:maxLines = "100"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:scrollbars = "vertical"
+        android:id="@+id/translateViewDictionary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+
+</LinearLayout>

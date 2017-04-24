@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Yandex Translate</string>
+    <string name="title_home">Home</string>
+    <string name="title_history">History</string>
+    <string name="title_settings">Settings</string>
+    <string name="source_language">Source Language</string>
+    <string name="target_language">Target Language</string>
+    <string name="history_title">History</string>
+
+</resources>
