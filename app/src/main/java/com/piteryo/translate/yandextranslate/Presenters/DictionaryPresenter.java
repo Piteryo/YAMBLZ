@@ -33,6 +33,8 @@ public class DictionaryPresenter {
 
     public String htmlBuilder(Dictionary dictionary)
     {
+        if (dictionary == null)
+            return "";
         String htmlString = "";
         if (dictionary.getDefinitions() != null)
         for(Definition def : dictionary.getDefinitions())
